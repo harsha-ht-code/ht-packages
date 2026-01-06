@@ -5,9 +5,8 @@
   "main": "index.js",
   "type": "module",
   "exports": {
-    ".": "./eslint.config.mjs",
-    "./eslint-config": "./eslint.config.mjs",
-    "./phpcs-config": "./phpcs.xml"
+    "./eslint": "./eslint.config.mjs",
+    "./phpcs": "./phpcs.xml"
   },
   "files": [
     "eslint.config.mjs",
