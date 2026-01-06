@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+
+  "exports": {
+    ".": "./eslint.config.mjs",
+    "./eslint-config": "./eslint.config.mjs",
+    "./phpcs-config": "./phpcs.xml"
+  },
+
+  "files": [
+    "eslint.config.mjs",
+    "phpcs.xml"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js": "eslint . --ext .js",
