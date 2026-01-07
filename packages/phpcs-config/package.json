@@ -1,0 +1,28 @@
+{
+  "name": "@holithemes/phpcs-config",
+  "version": "1.0.0",
+  "description": "PHP CodeSniffer configuration for HoliThemes projects",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./phpcs.xml": "./phpcs.xml"
+  },
+  "files": [
+    "index.js",
+    "phpcs.xml",
+    "composer.json"
+  ],
+  "keywords": [
+    "phpcs",
+    "php-codesniffer",
+    "holithemes",
+    "wordpress"
+  ],
+  "author": "HoliThemes",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsha-ht-code/ht-packages.git",
+    "directory": "packages/phpcs-config"
+  }
+}
