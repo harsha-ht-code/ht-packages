@@ -1,0 +1,34 @@
+{
+  "name": "@holithemes/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configuration for HoliThemes projects",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "holithemes"
+  ],
+  "author": "HoliThemes",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint-plugin-no-unsanitized": "^4.0.2",
+    "eslint-plugin-security": "^3.0.1",
+    "globals": "^17.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsha-ht-code/ht-packages.git",
+    "directory": "packages/eslint-config"
+  }
+}
