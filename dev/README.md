@@ -1,5 +1,7 @@
 # HT Packages Development Guide
 
+> **Built by HoliThemes** - Professional WordPress development tools for enterprise-grade projects
+
 Complete guide for developing, testing, and publishing HoliThemes linting packages.
 
 ## 📁 Project Structure
@@ -323,9 +325,10 @@ npm install
 - [PHPCS Documentation](https://github.com/squizlabs/PHP_CodeSniffer)
 - [WordPress Coding Standards](https://github.com/WordPress/WordPress-Coding-Standards)
 
-## 📞 Support
+## 📞 Support & Community
 
-For issues or questions:
-1. Check existing [GitHub Issues](https://github.com/harsha-ht-code/ht-packages/issues)
-2. Create new issue with detailed description
-3. Contact team lead for urgent matters
+### HoliThemes Resources
+- 🌐 **Website**: [holithemes.com](https://holithemes.com)
+- 📧 **Contact**: [support@holithemes.com](mailto:support@holithemes.com)
+- 💼 **Services**: WordPress development, plugin creation, enterprise solutions
+

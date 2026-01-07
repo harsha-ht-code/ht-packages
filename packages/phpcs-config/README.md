@@ -1,5 +1,7 @@
 # @holithemes/phpcs-config
 
+> 🏢 **HoliThemes** - We build cutting-edge web technologies that bring your digital presence into the future
+
 Internal PHP CodeSniffer configuration for HoliThemes WordPress projects with coding standards,security rules and quality enforcement.
 
 ## Installation
@@ -111,9 +113,7 @@ composer install
 rm test.php
 ```
 
-## Programmatic Usage
 
-```javascript
-const { getConfigPath } = require('@holithemes/phpcs-config');
-console.log(getConfigPath()); // Path to phpcs.xml
-```
+### 📞 **Contact Us**
+- 🌐 **Website**: [holithemes.com](https://holithemes.com)
+- 📧 **Email**: [contact@holithemes.com](mailto:support@holithemes.com)

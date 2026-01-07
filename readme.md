@@ -1,5 +1,7 @@
 # HT Packages Monorepo
 
+> 🏢 **Built by HoliThemes** - We build cutting-edge web technologies that bring your digital presence into the future
+
 A collection of linting and coding standards packages for HoliThemes projects.
 
 ## Packages
@@ -67,3 +69,7 @@ npm run version:patch
 ## Security
 
 All packages include security-focused linting rules and best practices for secure coding.
+
+### 📞 **Contact Us**
+- 🌐 **Website**: [holithemes.com](https://holithemes.com)
+- 📧 **Email**: [contact@holithemes.com](mailto:support@holithemes.com)

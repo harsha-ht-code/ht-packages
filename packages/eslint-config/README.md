@@ -1,6 +1,8 @@
 # @holithemes/eslint-config
 
-Internal ESLint configuration for HoliThemes projects with WordPress compatibility,security rules and standardized coding practices.
+> 🏢 **HoliThemes** - We build cutting-edge web technologies that bring your digital presence into the future
+
+Internal ESLint configuration for HoliThemes projects with standardized coding and practicescomprehensive security rules.
 
 ## Installation
 
@@ -53,7 +55,7 @@ npx eslint src/
 - DOM manipulation safety
 
 ### Code Quality
-- WordPress coding standards
+- Modern web development standards
 - Modern ES2020 syntax support
 - Consistent formatting rules
 - Best practice enforcement
@@ -86,14 +88,7 @@ npm version patch
 npm publish --access public
 ```
 
-## Development
 
-```bash
-# Install dependencies
-npm install
-
-# Test configuration
-echo "const test = 'hello';" > test.js
-npx eslint test.js
-rm test.js
-```
+### 📞 **Contact Us**
+- 🌐 **Website**: [holithemes.com](https://holithemes.com)
+- 📧 **Email**: [contact@holithemes.com](mailto:support@holithemes.com)
