@@ -15,6 +15,7 @@ npm install --save-dev @holithemes/phpcs-config
 ### 1. Install PHP Dependencies
 ```bash
 composer require --dev squizlabs/php_codesniffer
+# For WordPress projects need to install wp-coding-standards
 composer require --dev wp-coding-standards/wpcs
 ```
 
@@ -28,7 +29,6 @@ Create `phpcs.xml` in your project root:
   <file>./includes</file>
 </ruleset>
 ```
-## Configuration Options
 
 ### Custom Exclusions
 ```xml
