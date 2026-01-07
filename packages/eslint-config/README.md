@@ -1,6 +1,6 @@
 # @holithemes/eslint-config
 
-ESLint configuration with security and best practices for HoliThemes projects.
+Internal ESLint configuration for HoliThemes projects with WordPress compatibility,security rules and standardized coding practices.
 
 ## Installation
 
