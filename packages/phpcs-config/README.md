@@ -1,6 +1,6 @@
 # @holithemes/phpcs-config
 
-PHP CodeSniffer configuration for WordPress projects.
+Internal PHP CodeSniffer configuration for HoliThemes WordPress projects with coding standards,security rules and quality enforcement.
 
 ## Installation
 
