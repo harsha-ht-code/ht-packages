@@ -9,7 +9,12 @@ Internal ESLint configuration for HoliThemes projects with standardized coding a
 ```bash
 npm install --save-dev @holithemes/eslint-config
 ```
-
+# auto update for getting the new version
+```bash
+npm i 
+         #or
+npm install @holithemes/eslint-config@latest
+```
 ## Usage
 
 ### Basic Setup

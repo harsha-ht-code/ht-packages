@@ -10,6 +10,12 @@ Internal PHP CodeSniffer configuration for HoliThemes projects with coding stand
 npm install --save-dev @holithemes/phpcs-config
 ```
 
+# auto update for getting the new version
+```bash
+npm i 
+         #or
+npm install @holithemes/phpcs-config@latest
+```
 ## Setup
 
 ### 1. Install PHP Dependencies

@@ -6,26 +6,7 @@ This package provides shared configuration for ESLint (JavaScript) and PHP_CodeS
 - **ESLint Config**: `eslint.config.mjs` (ESLint 9+ compatible)
 - **PHPCS Config**: `phpcs.xml` (WordPress Coding Standards)
 
-## 🚀 Setup & Installation
 
-### 1. Install Dependencies
-
-To work on this package locally, install both JavaScript and PHP dependencies:
-
-```bash
-npm install
-composer install
-```
-
-### 2. Verify Installation
-
-Ensure that the linters are working correctly:
-
-```bash
-npm run lint:all
-```
-
----
 
 ## 🛠 Development Commands
 
@@ -51,15 +32,61 @@ You do **not** need to run GitHub Actions to publish; you can publish directly f
    npm login
    ```
 
-### Steps to Publish
+### Publishing Individual Packages
 
-1. **Update Version**: Bump the version number (patch, minor, or major).
-   ```bash
-   npm version patch
-   ```
+#### 1. ESLint Config Package
+```bash
+cd packages/eslint-config
 
-2. **Publish to NPM**:
-   ```bash
-   npm publish
-   ```
-   *(If this is a scoped package like `@my-org/ht-packages`, use `npm publish --access public`)*
+# Update version  # or minor/major
+npm version patch
+
+# First publish (sets public access)
+npm publish --access public
+
+# Subsequent publishes
+npm publish
+
+# Verify publication
+npm view @holithemes/eslint-config
+```
+
+#### 2. PHPCS Config Package
+```bash
+cd packages/phpcs-config
+
+# Update version
+npm version patch
+
+# First publish (one time only)
+npm publish --access public
+
+# Subsequent publishes
+npm publish
+
+# Verify publication
+npm view @holithemes/phpcs-config
+```
+
+
+# the commandes to install
+```bash
+npm install --save-dev @holithemes/eslint-config
+
+npm install --save-dev @holithemes/phpcs-config
+         #or 
+npm i @holithemes/eslint-config
+
+npm i @holithemes/phpcs-config
+ ```
+
+
+# auto update for getting the new version
+```bash
+npm i 
+         #or
+npm install 
+         #or
+npm install @holithemes/eslint-config@latest
+
+npm install @holithemes/phpcs-config@latest

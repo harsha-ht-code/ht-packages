@@ -12,7 +12,6 @@ ht-packages/
 │   ├── eslint-config/          # @holithemes/eslint-config
 │   ├── phpcs-config/           # @holithemes/phpcs-config
 │   ├── ht-packages/            # @holithemes/ht-packages (main)
-│   └── shared-utils/           # @holithemes/shared-utils
 ├── package.json                # Monorepo workspace config
 └── README.md                   # Main documentation
 ```
@@ -80,24 +79,7 @@ npm publish
 npm view @holithemes/phpcs-config
 ```
 
-#### 3. Shared Utils Package
-```bash
-cd packages/shared-utils
-
-# Update version
-npm version patch
-
-# First publish (one time only)
-npm publish --access public
-
-# Subsequent publishes
-npm publish
-
-# Verify publication
-npm view @holithemes/shared-utils
-```
-
-#### 4. Main HT Packages
+#### 3. Main HT Packages
 ```bash
 cd packages/ht-packages
 
@@ -132,7 +114,6 @@ npm run publish:all
 # Verify all publications
 npm view @holithemes/eslint-config
 npm view @holithemes/phpcs-config
-npm view @holithemes/shared-utils
 npm view @holithemes/ht-packages
 ```
 
@@ -196,24 +177,6 @@ composer require --dev wp-coding-standards/wpcs
 
 # Lint specific files
 ./vendor/bin/phpcs src/
-```
-
-### Combined Package Usage
-
-#### Installation
-```bash
-npm install --save-dev @holithemes/ht-packages
-```
-
-#### Usage
-```javascript
-import { eslintConfig, validateConfig } from '@holithemes/ht-packages';
-
-// Use ESLint config
-export default eslintConfig;
-
-// Use utilities
-validateConfig(myConfig);
 ```
 
 ## 🧪 Testing Packages
